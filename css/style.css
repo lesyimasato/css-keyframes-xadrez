@@ -1,0 +1,22 @@
+body{
+    background: #b3c4dd;
+}
+
+#anima-div{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    animation: mov-div 7s infinite;
+}
+
+@keyframes mov-div{
+    0%{top: 0px; left: 8px;}
+    12.5%{top: 195px; left: 8px;}
+    25%{top: 195px; left: 104px;}
+    37.5%{top: 385px; left: 104px;}
+    50%{top: 385px; left: 200px;}
+    62.5%{top: 575px; left: 200px;}
+    75%{top: 575px; left: 295px;}
+    87.5%{top: 575px; left: 490px;}
+    100%{top: 675px; left: 490px;}
+}
